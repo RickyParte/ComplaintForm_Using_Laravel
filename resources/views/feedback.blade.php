@@ -22,16 +22,18 @@
     </tr>
 </thead>
 <tbody>
-    
+
 @foreach($feedbacks as $feedback)
+<tr>
 <td>{{ $feedback['name'] }}</td>
 <td>{{ $feedback['rollnumber'] }}</td>
 <td>{{ $feedback['branch'] }}</td>
 <td>{{ $feedback['email'] }}</td>
 <td>{{ $feedback['mobilenumber'] }}</td>
 <td>{{ $feedback['description'] }}</td>
+</tr>
 @Endforeach
-    
+
 </tbody>
 </table>
 <a href="/"><button class="btn btn-primary"> Complaint Feedback Submission Form </button></a>
