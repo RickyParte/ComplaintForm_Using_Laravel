@@ -62,3 +62,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Controllers
+
+In the Project main contrller is FeedbackController. all working from That controller.
+
+## Views
+All views are working for that task or project. I use feedback view for retrieve all feedbacks from database and display. Second welcome view is for starting page that is comaplaint and feedback form. next views for one is success whenever feedback successfully submitted then it will show otherwise fail view will show.
+
+
