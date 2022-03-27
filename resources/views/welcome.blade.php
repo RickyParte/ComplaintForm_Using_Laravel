@@ -21,7 +21,7 @@
 </style>
 
 <body style="background-color: rgb(0,0,0);">
-    
+
 <div class="container">
     <div class="feedback-form mt-3">
         <form action="/submitcomplaint" method="POST">
@@ -29,7 +29,7 @@
             <div class="card ps-3 pe-3 pt-2 border-2 border-primary">
                 <h1 class="mb-3 fs-3 pt-2 fw-bold text-center text-warning">Complaint/Feedback Form</h1>
                 <hr class="text-primary">
-                
+                <h4 class="text-light text-center">{{ Session::get('message') }}</h4>
                 <div class="mb-3">
                     <label for="Full Name" class="form-label fs-5 fw-bold mt-2 text-primary">Full Name:</label>
                     <input type="text" class="form-control" name="fullname" placeholder="Enter Your Full Name" required>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="mb-3">
                     <label for="issuefeedback" class="form-label fs-5 fw-bold text-primary">Describe Your Issue/Feedback:</label>
                     <textarea class="form-control"  rows="2" name="describeissue" placeholder="Describe Your Issue/Feedback. Character Limit is 1000" required></textarea>
@@ -84,11 +84,11 @@
 
 
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 crossorigin="anonymous"></script>
 </body>
 </html>

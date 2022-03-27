@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+Use Redirect;
 use App\Models\Feedback;
 
 class FeedbackController extends Controller
@@ -19,12 +20,12 @@ class FeedbackController extends Controller
         $feedback->description=$request->describeissue;
         if($feedback->save())
         {
-            return redirect('success');
+            return Redirect::to('/')->with('message', 'Complaint/Feedback Submitted');
         }
         else{
-            return redirect('fail');
+            return Redirect::to('/')->with('message', 'Complaint/Feedback Not Submitted! Please Try Again.');
         }
-        
+
     }
     function getData()
     {
