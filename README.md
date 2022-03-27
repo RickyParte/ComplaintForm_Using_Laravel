@@ -73,6 +73,19 @@ All views are working for that task or project. I use feedback view for retrieve
 ## Update
 we have created two views. one for if data saved successfully then we use success view and second one is if data not saved then we use fail view. the update is that views not needed for now our message will print direct on form.
 
+## updated image
+![image](https://user-images.githubusercontent.com/77445318/160275415-eea794e5-4d3d-47ed-9930-24db73c88ac3.png)
+
+## previous image
+1) success image
+![image](https://user-images.githubusercontent.com/77445318/160275557-e76d2d15-229a-4531-9e23-04764a3142a8.png)
+
+2) failed image
+![image](https://user-images.githubusercontent.com/77445318/160275622-b0e580b0-3096-475f-8dbe-99700763a647.png)
+
+
+
+
 
 
 
