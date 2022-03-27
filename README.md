@@ -70,4 +70,10 @@ In the Project main contrller is FeedbackController. all working from That contr
 ## Views
 All views are working for that task or project. I use feedback view for retrieve all feedbacks from database and display. Second welcome view is for starting page that is comaplaint and feedback form. next views for one is success whenever feedback successfully submitted then it will show otherwise fail view will show.
 
+## Update
+we have created two views. one for if data saved successfully then we use success view and second one is if data not saved then we use fail view. the update is that views not needed for now our message will print direct on form.
+
+
+
+
 
